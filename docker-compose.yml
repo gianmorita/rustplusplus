@@ -7,7 +7,7 @@ services:
             - ./logs:/app/logs
             - ./maps:/app/maps
         environment:
-            - RPP_DISCORD_CLIENT_ID=111....1111
-            - RPP_DISCORD_TOKEN=token
+            - RPP_DISCORD_CLIENT_ID=1194544704293974087
+            - RPP_DISCORD_TOKEN=f0a671c1bfebf70c08537b233a745ae0c7d0e131443c48635fbd09bed07b61d0
         container_name: rpp
         image: ghcr.io/alexemanuelol/rustplusplus
